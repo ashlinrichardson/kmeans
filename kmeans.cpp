@@ -3,7 +3,8 @@ kmeans.cpp
 
 By Ashlin Richardson, M.Sc 
 
-Takes a CSV file and writes cluster labels to binary. This version not tested. If there was a 30-day challenge 'implement a textbook algorithm every day', this might be a partial result. Should be updated for larger data (e.g., long int indices, and more efficient data structures, etc.)
+Takes a CSV file and writes cluster labels to binary. This version not tested. 
+Should be updated for larger data (e.g., long int indices, and more efficient data structures, etc.)
  
 */
 
