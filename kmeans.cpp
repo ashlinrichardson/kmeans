@@ -30,9 +30,13 @@ vector< vector<int> > clusterMembers;
 std::string lastClusterCentres; 
 
 void cleanUp(){
-  free( dat ); free( datMin ); free( datMax ); free( datScale ); 
-  free( clusterCentres );
-  free( currentLabel );   free( myMean );
+  free( dat );            
+  free( datMin ); 
+  free( datMax ); 
+  free( datScale ); 
+  free( clusterCentres ); 
+  free( currentLabel );   
+  free( myMean );
 }
 
 /*convert int to string*/
@@ -263,9 +267,6 @@ int main(int argc, char ** argv){
     /* calculate class membership lists.. */
     for(j=0; j<nClust; j++){
       clusterMembers[j].clear(); /*
-      while (!clusterMembers[j].empty()){
-        clusterMembers[j].pop_back();
-      }*/
     }
 
     for(j=0; j< nRecords; j++){
