@@ -2,7 +2,10 @@
 ##overview
 Heuristic solution to K-means clustering problem, with random initialization
 ##instructions
-E.g, 
 ```
-python kmeans.py test.csv 5
+kmeans.py [inputFileName ] [k ]     
+```
+For example, to generate 3 clusters using the provided data:
+```
+python kmeans.py test.csv 3
 ```
