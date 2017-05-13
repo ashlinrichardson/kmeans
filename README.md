@@ -1,7 +1,7 @@
-#k-means
-##overview
-Heuristic solution to K-means clustering problem, with random initialization
-##instructions
+# k-means
+## overview
+Heuristic solution to K-means clustering problem, w./ random initialization
+## instructions
 ```
 kmeans.py [inputFileName ] [k ]     
 ```
