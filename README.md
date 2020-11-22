@@ -1,6 +1,6 @@
 # k-means
 ## overview
-Heuristic solution to K-means clustering problem, w./ random initialization
+Heuristic solution to K-means clustering problem, w./ random initialization. This version for tabular data
 ## instructions
 ```
 kmeans.py [inputFileName ] [k ]     
